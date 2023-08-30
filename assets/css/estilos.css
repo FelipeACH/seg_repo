@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --colorPrincipal: #bb004d;
+    --colorPrincipalOscuro: #9d0141;
+    --colorPrincipalClaro: #f6f6f6;
+    --colorSecundario: #267ba1;
+    --colorHover: #C4C4C4;
+
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    color: var(--colorPrincipal);
+}
+
+.bg-colorPrincipal {
+    background-color: var(--colorPrincipal);
+}
+
+.text-colorTexto{
+    color: var(--colorPrincipalClaro);
+}
+
+.text-colorTexto:hover{
+    color: var(--colorHover);
+}
+
+.btn-colorPrincipalClaro{
+    background-color: var(--colorPrincipalClaro);
+}
+
+.btn-colorPrincipalClaro:hover{
+    background-color: var(--colorHover);
+}
+
+.navbar-toggler {
+    background-color: var(--colorPrincipalClaro);
+}
+
+.navbar-toggler:hover {
+    background-color: var(--colorHover);
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+
+.text-colorAntiguo{
+    color: var(--colorPrincipalOscuro);
+}
+
+.text-ColorNuevo{
+    color: var(--colorSecundario);
+}
+
+.btn-exterior-colorPrincipal{
+    border-color: var(--colorPrincipal);
+    color: var(--colorPrincipal);
+}
+
+.btn-exterior-colorPrincipal:hover{
+    background-color: var(--colorPrincipal);
+    color: var(--colorPrincipalClaro);
+}
+
+.seccion2{
+    color: var(--colorPrincipalClaro);
+}
+
+.bg-colorSecundario{
+    background-color: var(--colorSecundario);
+}
+
+.bg-colorPrincipalOscuro{
+    background-color: var(--colorPrincipalOscuro);
+}
+
+h4{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    color: var(--colorPrincipalClaro);
+}
+
+h5{
+    font-family: 'Fira Sans', sans-serif;
+    color: var(--colorHover);
+}
+
+.card-text p{
+    color: var(--colorSecundario);
+}
+
+p{
+    color: var(--colorHover);
+}
